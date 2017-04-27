@@ -10,8 +10,8 @@ JasmineLinter.prototype.brunchPlugin = true;
 
 JasmineLinter.prototype.lint = function(data, path, callback) {
   var self = this;
-  if( this.pattern.test(path) && data.match(/(iit|ddescribe)\s*\(/)) {
-    callback(this.logMessage( 'Found iit or ddescribe in ' + path));
+  if( this.pattern.test(path) && data.match(/(iit|ddescribe|fit|fdescribe)\s*\(/)) {
+    callback(this.logMessage( 'Found (i|f)it or (d|f)describe in ' + path));
     return;
   }
   callback();
