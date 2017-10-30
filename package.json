@@ -1,16 +1,16 @@
 {
   "name": "jasminelint-brunch",
   "version": "1.0.0",
-  "description": "Brunch plugin that checks for commited focused test specs (iit/ddescribe)",
+  "description": "Brunch plugin that checks for commited focused test specs (fit|iit/fdescribe|ddescribe)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Johan Andersson <johan-spam@andersson.net>",
   "license": "ISC",
-  "homepage": "https://github.com/remotex/jasminelinter-brunch",
+  "homepage": "https://github.com/Lundalogik/jasminelinter-brunch",
   "repository": {
     "type": "git",
-    "url": "git@github.com:remotex/jasminelinter-brunch.git"
+    "url": "git@github.com:Lundalogik/jasminelinter-brunch.git"
   }
 }
